@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.8;
+}
+
+nav ul {
+  display: flex;
+  background-color: #333333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 40px;
+  padding: 10px;
+}
+
+nav ul li:hover {
+  background-color: #807878;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.container {
+  max-width: 1180px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#showcase .container {
+  padding-top: 25vh;
+}
+
+#top-banner {
+  height: 100vh;
+  background-image: url(./images/showcase1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+p {
+  font-size: 20px;
+}
+
+#music-area {
+  background-color: rgb(49, 47, 47);
+  color: white;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: tomato;
+  padding: 16px;
+  margin: 20px auto;
+}
+
+.btn:hover {
+  background-color: rgb(196, 97, 79);
+}
+
+#blog h1 {
+  font-size: 34px;
+  padding-top: 40px;
+}
+
+#blog .btn {
+  background-color: #0018f1;
+}
+
+#blog .btn:hover {
+  background-color: #3242d6;
+}
+
+#wide-banner {
+  background: url(./images/section-bg.jpeg) no-repeat bottom/cover;
+  color: white;
+  padding: 100px 0;
+}
+
+#gift-cards {
+  display: flex;
+  margin: 40px 0;
+}
+
+#gift-cards img {
+  width: 100%;
+}
+
+#gift-cards p {
+  font-size: 16px;
+}
+
+#gift-cards .card-text {
+  padding-top: 50px;
+  padding-left: 20px;
+  text-align: left;
+}
+
+#gift-cards .redeem {
+  text-decoration: none;
+  color: rgb(4, 4, 39);
+  display: inline-block;
+  padding-top: 10px;
+}
+
+#footer {
+  background-color: rgb(56, 53, 53);
+  width: 100%;
+  color: white;
+}
+
+.footer-card {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.footer-column ul li {
+  list-style: none;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+#footer p {
+  text-align: center;
+  font-size: 16px;
+  background-color: rgb(90, 86, 86);
+}
